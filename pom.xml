@@ -58,6 +58,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>spring-ci</finalName>
     </build>
 
 </project>
