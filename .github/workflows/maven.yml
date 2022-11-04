@@ -36,6 +36,7 @@ jobs:
           image: 404bayero/spring-ci
           tags: latest
           registry: docker.io
+          platform: linux/amd64
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
